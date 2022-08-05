@@ -2,6 +2,8 @@ Discord - https://discord.gg/XPuqBVtyqX
 
 # QB-VENDING for qbcore framkework
 
+# Prewiev
+https://ibb.co/cNDfNmy
  
 ## Please note
 
