@@ -9,13 +9,13 @@ RegisterNetEvent('qb-vending:VendingCoffee', function(data)
         {
             
             header = "| BEAN MACHINE |",
-            txt = "The Best Coffee in the City",
+            txt = "Nejlepší káva ve měste!",
             isMenuHeader = true, 
         },
         {
             
-            header = "• Coffee",
-            txt = "A Simple Cup of Joe",
+            header = "• Káva",
+            txt = "Šálek Joe",
             params = {
                 event = "qb-vending:client:BuyCoffee"
             }
@@ -23,7 +23,7 @@ RegisterNetEvent('qb-vending:VendingCoffee', function(data)
         {
             
             header = "• Latte Machiatto",
-            txt = "A Smooth Milky Coffee",
+            txt = "Hladká káva s mlékem",
             params = {
                 event = "qb-vending:client:BuyLatte"
             }
@@ -31,14 +31,14 @@ RegisterNetEvent('qb-vending:VendingCoffee', function(data)
         {
             
             header = "• Espresso",
-            txt = "A Rich & Dark Coffee",
+            txt = "Silná černá káva",
             params = {
                 event = "qb-vending:client:BuyEspresso"
             }
         },
         {
             id = 7,
-            header = "Close (ESC)",
+            header = "Zavřít (ESC)",
             isMenuHeader = true,
         },
     })
@@ -51,7 +51,7 @@ RegisterNetEvent('qb-vending:VendingFizzy', function(data)
         {
             
             header = "| FIZZY DRINKS |",
-            txt = "Cold and Refreshing Beverages",
+            txt = "Chlazené a osvěžující nápoje",
             isMenuHeader = true, 
         },
         {
@@ -65,7 +65,7 @@ RegisterNetEvent('qb-vending:VendingFizzy', function(data)
         {
             
             header = "• Sprunk",
-            txt = "A spunky drink indeed",
+            txt = "Nápoj pro odvážné",
             params = {
                 event = "qb-vending:client:BuySprunk"
             }
@@ -73,22 +73,22 @@ RegisterNetEvent('qb-vending:VendingFizzy', function(data)
         {
             
             header = "• Orang o Tang",
-            txt = "Orangey Goodness",
+            txt = "Oranžová dobrota",
             params = {
                 event = "qb-vending:client:BuyOrangotang"
             }
         },
         {
             
-            header = "• Lemonade",
-            txt = "Bitter Lemonade",
+            header = "• Limonáda",
+            txt = "Klasická limonáda",
             params = {
                 event = "qb-vending:client:BuyLemonade"
             }
         },
         {
             id = 7,
-            header = "Close (ESC)",
+            header = "Zavřít (ESC)",
             isMenuHeader = true,
         },
     })
@@ -100,36 +100,36 @@ RegisterNetEvent('qb-vending:VendingSnacks', function(data)
         {
             
             header = "| CANDYBOX |",
-            txt = "We Got Sweet, Salty AND Spicy",
+            txt = "Sladké, slané i kořeněné!",
             isMenuHeader = true, 
         },
         {
             
-            header = "• Bars",
-            txt = "See Bar Products",
+            header = "• Tyčinky",
+            txt = "Výběr tyčinek",
             params = {
                 event = "qb-vending:BarsMenu"
             }
         },  
         {
             
-            header = "• Chips",
-            txt = "A spunky drink indeed",
+            header = "• Chipsy",
+            txt = "Velká nabídka chipsů",
             params = {
                 event = "qb-vending:ChipsMenu"
             }
         },
         {
             
-            header = "• Sweets",
-            txt = "Orangey Goodness",
+            header = "• Sladkosti",
+            txt = "Cukrovinky",
             params = {
                 event = "qb-vending:SweetsMenu"
             }
         },
         {
             id = 7,
-            header = "Close (ESC)",
+            header = "Zavřít (ESC)",
             isMenuHeader = true,
         },
     })
@@ -142,13 +142,13 @@ RegisterNetEvent('qb-vending:BarsMenu', function(data)
         {
             
             header = "| CANDYBOX |",
-            txt = "Our Selection of Bars",
+            txt = "Náš výběr tyčinek",
             isMenuHeader = true, 
         },
         {
             
             header = "• Zebrabar",
-            txt = "White and Dark",
+            txt = "Bílá a tmavá",
             params = {
                 event = "qb-vending:client:BuyZebrabar"
             }
@@ -156,7 +156,7 @@ RegisterNetEvent('qb-vending:BarsMenu', function(data)
         {
             
             header = "• Meteorite",
-            txt = "A Big Hitter",
+            txt = "Nejprodávanější",
             params = {
                 event = "qb-vending:client:BuyMeteorite"
             }
@@ -164,15 +164,15 @@ RegisterNetEvent('qb-vending:BarsMenu', function(data)
         {
             
             header = "• Captains Log",
-            txt = "A Big Nutty Log",
+            txt = "Velká ořechová tyčinka",
             params = {
                 event = "qb-vending:client:BuyCaptainsLog"
             }
         },
         {
             
-            header = "• Candybox Berry",
-            txt = "Fruity Bar",
+            header = "• Candybox Bobule",
+            txt = "Ovocná tyčinka",
             params = {
                 event = "qb-vending:client:BuyCRed"
             }
@@ -180,30 +180,30 @@ RegisterNetEvent('qb-vending:BarsMenu', function(data)
         {
             
             header = "• Candybox Cream",
-            txt = "Creamy Bar",
+            txt = "Krémová tyčinka",
             params = {
                 event = "qb-vending:client:BuyCCream"
             }
         },
         {
             
-            header = "• Candybox Mint",
-            txt = "Minty Bar",
+            header = "• Candybox Máta",
+            txt = "Mátová tyčinka",
             params = {
                 event = "qb-vending:client:BuyCGreen"
             }
         },
         {
             
-            header = "• Candybox Dark",
-            txt = "Dark Bar",
+            header = "• Candybox Hořká",
+            txt = "Hořká tyčinka",
             params = {
                 event = "qb-vending:client:BuyCBrown"
             }
         },
         {
             
-            header = "! Back !",
+            header = "! zpět !",
             txt = "",
             params = {
                 event = "qb-vending:VendingSnacks"
@@ -219,60 +219,60 @@ RegisterNetEvent('qb-vending:ChipsMenu', function(data)
         {
             
             header = "| CANDYBOX |",
-            txt = "Our Selection of Chips",
+            txt = "Náš výběr chipsů",
             isMenuHeader = true, 
         },
         {
             
-            header = "• Paprika Chips",
-            txt = "Crinkled Paprika Flavour",
+            header = "• Paprikové Chipsy",
+            txt = "Papriková příchuť",
             params = {
                 event = "qb-vending:client:BuyPaprikaChips"
             }
         },  
         {
             
-            header = "• Big Cheese Chips",
-            txt = "Lots of Cheese",
+            header = "• Sýrové Chipsy",
+            txt = "Sýrová příchuť",
             params = {
                 event = "qb-vending:client:BuyCheeseChips"
             }
         },
         {
             
-            header = "• Sticky Ribs Chips",
-            txt = "Napkin Anyone?",
+            header = "• Grilovaná žebra Chipsy",
+            txt = "Grilované žebra příchuť",
             params = {
                 event = "qb-vending:client:BuyStickyChips"
             }
         },
         {
             
-            header = "• Salt n Sauce Chips",
-            txt = "Salty and Saucy",
+            header = "• Slané Chipsy",
+            txt = "Slaná příchuť",
             params = {
                 event = "qb-vending:client:BuySaltSauceChips"
             }
         },
         {
             
-            header = "• Habanero Chips",
-            txt = "Super Spicy",
+            header = "• Habanero Chipsy",
+            txt = "Super pálivé chipsy",
             params = {
                 event = "qb-vending:client:BuyHabaneroChips"
             }
         },
         {
             
-            header = "• SuperSalt Chips",
-            txt = "Salty and Salty",
+            header = "• Hodně slané Chipsy",
+            txt = "Velmi slaná příchuť",
             params = {
                 event = "qb-vending:client:BuySuperSaltChips"
             }
         },
         {
             
-            header = "! Back !",
+            header = "! Zpět !",
             txt = "",
             params = {
                 event = "qb-vending:VendingSnacks"
@@ -288,13 +288,13 @@ RegisterNetEvent('qb-vending:SweetsMenu', function(data)
         {
             
             header = "| CANDYBOX |",
-            txt = "Our Selection of Sweets",
+            txt = "Náš výběr sladkostí",
             isMenuHeader = true, 
         },
         {
             
-            header = "• Salty Nothings",
-            txt = "Salty Sweets?",
+            header = "• Slané sladkosti",
+            txt = "Slané ale sladké",
             params = {
                 event = "qb-vending:client:BuySNothings"
             }
@@ -302,38 +302,38 @@ RegisterNetEvent('qb-vending:SweetsMenu', function(data)
         {
             
             header = "• P N Qs",
-            txt = "A mixed box of sweets",
+            txt = "Mix sladkostí",
             params = {
                 event = "qb-vending:client:BuyPNQ"
             }
         },
         {
             
-            header = "• Mint Release",
-            txt = "Mint Flavoured Sweets",
+            header = "• Sladké s mátou",
+            txt = "Sladkosti ochucené mátou",
             params = {
                 event = "qb-vending:client:BuyRGreen"
             }
         },
         {
             
-            header = "• Candy Release",
-            txt = "Candy Flavoured Sweets",
+            header = "• Bombóny",
+            txt = "Sladké bombóny",
             params = {
                 event = "qb-vending:client:BuyRPink"
             }
         },
         {
             
-            header = "• Blueberry Release",
-            txt = "Blueberry Flavoured Sweets",
+            header = "• Borůvkové bombóny",
+            txt = "Borůvkové bombóny",
             params = {
                 event = "qb-vending:client:BuyRBlue"
             }
         },
         {
             
-            header = "! Back !",
+            header = "! Zpět !",
             txt = "",
             params = {
                 event = "qb-vending:VendingSnacks"
@@ -347,20 +347,20 @@ RegisterNetEvent('qb-vending:VendingRaine', function(data)
         {
             
             header = "| CANDYBOX |",
-            txt = "Our Selection of Sweets",
+            txt = "Náš výběr sladkostí",
             isMenuHeader = true, 
         },
         {
             
-            header = "• Recycle Water",
-            txt = "Its kinda Healthy",
+            header = "• Recyklová voda",
+            txt = "Je to docela zdravé",
             params = {
                 event = "qb-vending:client:RecycleRaineWater"
             }
         },  
         {
             id = 7,
-            header = "Close (ESC)",
+            header = "Zavřít (ESC)",
             isMenuHeader = true,
         },
     })
